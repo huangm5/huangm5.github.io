@@ -1,0 +1,13 @@
+(function () {
+   'use strict';
+
+   // unsupported browser
+   if (!window.addEventListener || !window.history || !window.requestAnimationFrame || !document.getElementsByClassName) return;
+
+   if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/serviceWorker.js', {
+         scope: '/'
+      });
+   }
+
+})();

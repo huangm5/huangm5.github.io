@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+viewBox="0 0 516.46666666667 184.4" height="200" width="560.15907447578">
+ <rect x="0" y="0" width="516.46666666667" height="184.4" fill="transparent"  />
+
+					<line x1='42' y1='47.6' x2='42' y2='167.6'  stroke-linecap='square' stroke='#2E7D32' stroke-width='28' fill='none'   />
+		<path d="M 42 107.6 A 57, 60, 0, 0, 1, 99, 47.6 "  stroke-linecap='square' stroke='#2E7D32' stroke-width='28' fill='none'   />
+					<ellipse cx='177.66666666667' cy='107.6' rx='57' ry='60'  stroke-linecap='round' stroke='#2E7D32' stroke-width='28' fill='none'   />
+					<line x1='273.66666666667' y1='17.6' x2='273.66666666667' y2='167.6'  stroke-linecap='square' stroke='#2E7D32' stroke-width='28' fill='none'   />
+					<line x1='321.26666666667' y1='59.6' x2='321.26666666667' y2='167.6'  stroke-linecap='square' stroke='#2E7D32' stroke-width='28' fill='none'   />
+		<line x1='321.26666666667' y1='20.6' x2='321.26666666667' y2='20.6'  stroke-linecap='round' stroke='#ff751a' stroke-width='35' fill='none'   />
+					<ellipse cx='417.46666666667' cy='107.6' rx='57' ry='60'  stroke-linecap='round' stroke='#2E7D32' stroke-width='28' fill='none'   />
+		<line x1='474.46666666667' y1='52.6' x2='474.46666666667' y2='167.6'  stroke-linecap='square' stroke='#2E7D32' stroke-width='28' fill='none'   />
+</svg>

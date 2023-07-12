@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+		viewBox="0 0 960 960" height="200" width="200" >
+<rect x="0" y="0" width="960" height="960" rx="200" style="fill: #ff9944"/>
+
+<path d="M 557.7, 719.3 A 155, 155, 0, 1, 1, 276.5, 627.9 A 155, 155, 0, 1, 1, 276.5, 332.1 A 155, 155, 0, 1, 1, 557.7, 240.7 A 155, 155, 0, 1, 1, 731.6, 480 A 155, 155, 0, 1, 1, 557.7, 719.3 " style="fill:#ffffff;stroke:#ff751a;stroke-width:1;fill-rule:nonzero;" 
+			stroke-linecap="round"/>
+	<circle cx="533" cy="395.2" r="30" fill="#ff751a" style="stroke:#ff751a"/>
+	<circle cx="387.3" cy="442.5" r="30" fill="#ff751a" style="stroke:#ff751a"/>
+	
+	<path d="M 607.2, 507 A 125, 125, 0, 0, 1, 393, 576.6"
+			stroke-linecap="round"
+			style="fill:none;stroke:#ff751a;stroke-width:11;fill-rule:nonzero;"
+			/>
+</svg>

@@ -1,0 +1,170 @@
+/*
+button, select, input {
+	background-color: inherit;
+}
+*/
+
+A:link { 
+   color: #1A1DAC ;
+}
+A.btn-primary:link,
+A.btn-primary:visited,
+A.btn-danger:link, 
+A.btn-danger:visited { 
+   color: #FFFFFF ;
+}
+
+A:visited { 
+   color: #4F5069 ;
+}
+
+A:hover {
+	color:	#F07D02;
+}
+
+.c1, .c1:link, .c1:visited  {
+	/*  
+	color: #4F5069 ;
+	*/
+	color: #777 ;
+	font-size: 95%;
+}
+
+a.c1:hover {
+	color:		#F07D02 ;
+}
+
+
+.c3 {
+	background-color: #ddffdd;
+	color: #1A1DAC;
+}
+
+.c4 {
+	background-color: #FFFF00;
+	color: #1A1DAC;
+}
+
+.ctg {
+	color: #198b95 ;
+}
+
+
+.details  {
+	color: #22aaaa ;
+}
+
+.remark {
+	color: #338833 ;
+}
+
+#headLink
+{
+	color: #000000 ;
+}
+
+#headLink a:link,
+#headLink a:visited
+{
+	color: blue;
+}
+
+#headLink a:hover
+{
+	color:		#FFAC00 ;
+}
+
+.link:hover {
+	color: #ffAC00;
+}
+
+.message
+{
+    BACKGROUND-COLOR: #ffffff;
+    COLOR: #000000;
+}
+
+.noneOnScreen {
+	color: #777777;
+}
+
+.subtitle, 
+.subtitle:link, 
+.subtitle:visited {
+	color:		green ;
+}
+
+.subtitle:hover {
+	color:		#F07D02 ;
+}
+
+.title {
+	color:		green ;
+}
+
+/*
+	Mode-specific.  Will be separate out later.
+*/
+
+/* date style: d1=most recent; d2=next recent; d0=regular */
+.d1 { color: #FF0000;}
+.d2 { color: #C000AC;}
+.d3 { color: #9F578A;}
+
+.groupHeader {
+	COLOR: #036d03;
+	BACKGROUND-COLOR: #ebf8e8;
+}
+
+.bulletinBoard {
+	border-color: #ffac00;
+	background-color: #ffffff;
+}
+
+.em
+{
+	color: #000000;
+}
+
+.noticeNoBorder /* with emphasis feature, but no border */
+{
+	color: #777777;
+}
+
+#urlSection
+{
+	color: #999999;
+}
+
+/*
+	These common classes are used by both common and popupDefault
+*/
+
+
+.brief {
+	color: #505030;
+}
+
+.divHead	{
+	BACKGROUND-COLOR: #ffffff
+}
+.divBody	{
+	BACKGROUND-COLOR: #ffffff
+}
+.divBottom	{
+	BACKGROUND-COLOR: #ebf8e8
+}
+.error	{
+	COLOR: #ff0000;
+	BACKGROUND-COLOR: #ffe162
+}
+
+
+.optional	{
+	color: Green;
+}
+.sectionHeader	{
+	COLOR: #036d03;
+	BACKGROUND-COLOR: #ebf8e8;
+}
+

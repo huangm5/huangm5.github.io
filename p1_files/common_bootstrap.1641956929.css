@@ -1,0 +1,208 @@
+@media (max-width: 600px) {
+    #contents {
+        overflow-wrap: break-word;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        padding: 0;
+    }
+    .navbar-fixed-top,
+    .navbar-fixed-bottom,
+    .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    ul.forum {
+        margin-left: -30px !important;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 800px;
+}
+
+.navbar-static-top {
+    margin-bottom: 19px;
+}
+
+.divHead {
+    MARGIN: 0;
+    PADDING: 0px 0px 0px 0px;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: #ffac00 2px solid;
+}
+
+.divTitle {
+    MARGIN: 0;
+    PADDING: 4px 0px 4px 30px;
+    BORDER: medium none;
+    background-color: #ebf8e8;
+}
+
+.divBody {
+    BORDER-BOTTOM: #ffac00 2px solid;
+}
+
+.divFoot {
+    BORDER-top: #ebf8e8 10px solid;
+    padding-top: 0.5em;
+    padding-bottom: 10px;
+    /*
+	padding: 5px 5px 25px 15px;
+	border-bottom: #036d03 50px solid;
+	*/
+    height: auto;
+}
+
+ul.forum {
+    margin-left: 0px;
+}
+
+ul.forum ul {
+    margin-left: 0px;
+}
+
+.error {
+    color: red;
+}
+
+.btn-default:hover {
+    color: #000;
+    background-color: #ffac00;
+}
+
+
+/* #zoom>H1, #zoom>H2 {
+font-weight: bold;
+font-size: 18px;
+LETTER-SPACING: 0px;
+LINE-HEIGHT: 130%;
+PADDING: 20px 40px 0px 40px;
+TEXT-ALIGN: center;
+} */
+
+H4,
+H4.page-title {
+    padding-left: 0.5em;
+    padding-right: 2em;
+    vertical-align: -40% !important;
+    display: inline;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+
+/* date style: d1=most recent; d2=next recent; d0=regular */
+
+.d1 {
+    color: #FF0000;
+}
+
+.d2 {
+    color: #C000AC;
+}
+
+.d3 {
+    color: #9F578A;
+}
+
+.current {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+
+/* Fade transition for carousel items */
+
+.carousel .item {
+    left: 0 !important;
+    -webkit-transition: opacity 3s;
+    /*adjust timing here */
+    -moz-transition: opacity 3s;
+    -o-transition: opacity 3s;
+    transition: opacity 3s;
+}
+
+.carousel-control {
+    background-image: none !important;
+    /* remove background gradients on controls */
+}
+
+
+/* Fade controls with items */
+
+.carousel .next.left,
+.carousel .prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+
+.carousel .active.left,
+.carousel .active.right {
+    opacity: 0;
+    z-index: 2;
+}
+
+.carousel .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-red {
+    background-color: red !important;
+}
+
+.bg-green {
+    background-color: #33ee33 !important;
+}
+
+.pmCount {
+    margin-left: -0.6em;
+}
+
+.m-b {
+    /* margin-bottom */
+    margin-bottom: 5px;
+}
+
+.fit-width {
+    max-width: 100% !important;
+}
+
+.popover {
+    max-width: 100%;
+    /* Max Width of the popover (depending on the container!) */
+}
+
+
+/* xs: <768 */
+
+@media ( max-width: 767px) {
+    .form-group-member {
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,509 @@
+.qtip-bootstrap {
+	font-size: 100% !important;
+}
+.qtip-bootstrap .qtip-titlebar .qtip-close {
+	left: 5px !important;
+	
+}
+.qtip-bootstrap .qtip-icon .ui-icon {
+	float: left !important;
+}
+
+.toggle-contents {
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+.contentTip {
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+i.d1.fa-forward.fa-rotate-90 {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.loc-label {
+	color: gray;
+	font-size: 70%;
+}
+.loc-info {
+	min-width: max-content;
+	width: max-content;
+	padding: 5px;
+}
+
+li.post span.pno {
+	display: none;
+}
+
+.following .c1 .author {
+	font-weight: bold;
+	color: #d8959d;
+}
+.following .post-title{
+	color: #58151d;
+}
+
+.ignoring .plusOneCount, 
+.ignoring .buttonPlusOne
+{
+	display: none;
+}
+.ignoring button,
+.ignoring .post-title, 
+.ignoring .postInfo, 
+.ignoring .author {
+	color: #c0c0c0;
+}
+.ignoring .post-title::selection {
+	color: #000000;
+	background: #dddddd;
+}
+
+a:link {
+	   text-decoration: underline;
+}
+a.btn {
+	text-decoration: none !important;
+}
+body.forum {
+	BACKGROUND-COLOR: #FFFFee;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+ 
+.divHead
+{
+    BACKGROUND-COLOR: #ffffff;
+    LINE-HEIGHT: 100%;
+    MARGIN: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 5px
+}
+.divBody {
+	background-color: #FFFFEE;
+	border-top: none;
+	padding: 0px 0px;
+}
+.linkPath
+{
+	white-space: nowrap;
+    BACKGROUND-COLOR: #ebf8e8;
+    COLOR: darkgreen;
+    BORDER-BOTTOM: 1px #ffffff solid;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    LINE-HEIGHT: normal;
+    MARGIN: 0px;
+    PADDING: 3px 5px 2px 5px;
+}
+.linkPathBold
+{
+	white-space: nowrap;
+	font-size: 110%;
+	font-weight: bolder;
+	COLOR: #333333;
+	LINE-HEIGHT: normal;
+	MARGIN: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+.linkPathA:visited,.linkPathA:link {
+    COLOR: gray;
+    TEXT-DECORATION: none;
+	 white-space: nowrap;
+}
+
+.linkPathA:hover
+{
+    COLOR: #F07D02;
+    TEXT-DECORATION: underline;
+	 white-space: nowrap;
+}
+
+a.ctg:link, a.ctg:visited
+{
+	color: #198b95 ;
+	TEXT-DECORATION: none;	
+}
+
+a.ctg:hover
+{
+	color:	#F07D02;
+	TEXT-DECORATION: underline;
+}
+
+.choice {color: #ff00ff;}
+.hot {color: #ff8080;}
+.found {color: #ff8080; font-weight: bolder;}
+
+/* ***************************************************
+
+For Category Pad in list.php and arIndex.php
+
+***************************************************** */    
+.fCtgItem {
+	height: 110%;
+	width: 6em;
+	margin: 0px 0px 0px 0px;
+	float: left;
+	white-space: nowrap;
+}
+.fCtgBoard {
+	height: 110%;
+	margin: 0px 0px 0px 0px;
+	white-space: nowrap;
+	border-bottom: #555555 1px dotted; 
+}
+.fCtgTd {
+	padding-top: 10px;
+	padding-right: 10px;
+	line-height: 150%;
+}
+.fCtgTh {
+	border-bottom: #dddddd 1px solid; 
+	line-height: 150%;
+}
+#fCtgPad {
+	display: none;
+	border-top: #bbbbbb 1px solid; 
+	border-left: #bbbbbb 1px solid; 
+	border-bottom: #aaaaaa 2px solid; 
+	border-right: #aaaaaa 2px solid; 
+	margin: 10px 20px 10px 20px; 
+	padding: 5px 10px 5px 10px; 
+	text-align: left;
+}
+#fCtgTable {
+	border-top: #bbbbbb 1px solid; 
+	margin-top: 5px;
+/*
+	border-left: #bbbbbb 1px solid; 
+	border-bottom: #aaaaaa 2px solid; 
+	border-right: #aaaaaa 2px solid; 
+	margin: 10px 20px 10px 20px; 
+	padding: 0px 0px 0px 0px; 
+	text-align: left;
+	*/
+}
+.fCtgPadCtg:link, .fCtgPadCtg:active, .fCtgPadCtg:visited {
+	color: #227722;
+	text-decoration: none;
+}
+.fCtgPadCtg:hover {
+	color: #ffac00;
+	text-decoration: underline;	
+}
+.fCtgPadBrd:link, .fCtgPadBrd:active, .fCtgPadBrd:visited {
+	color: #226622;
+	text-decoration: none;
+}
+.fCtgPadBrd:hover {
+	color: #ffac00;
+	text-decoration: underline;	
+}
+/* *** End of Category Pad in list.php and arIndex.php *** */
+
+/* *************************************************** */    
+/*  *****  For banners                           ***** */
+/* *************************************************** */    
+
+.bannerBox {
+    position:relative;
+}
+.bannerBox DIV {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    background-color: #FFF;
+}
+.bannerBox DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+.bannerBox DIV.last-active {
+    z-index:9;
+}
+#padBannerBox {
+    height: 160px;
+    width: 180px;
+    display: block;
+
+}
+#padBannerBox DIV IMG {
+    height: 160px;
+    width: 180px;
+    display: block;
+    border: 0;	
+}
+#bottomBannerBox {
+	text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#topBannerBox DIV IMG.banner, #bottomBannerBox DIV IMG.banner {
+/*
+    height: 60px;
+    width: 480px;
+    */
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    border: 0;	
+}
+
+
+/*  ***** End: for banners ***** */
+iframe.topic {
+	display:none;
+	border:0;
+	height: 1;
+	width:1;
+}
+
+.plusOneCount {
+	color: #e78700;
+	font-size: 85%;
+	font-style: italic;
+}
+
+
+li.folded {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 0 !important;
+	margin-left: -1.5em;
+}
+
+/* *************************************************** */    
+/*  *****  Forum Updates List                    ***** */
+/* *************************************************** */    
+
+div.forumUpdates {
+    white-space: nowrap;
+    overflow: scroll;
+    max-height: 20.7em;
+}
+
+div.forumUpdates>li {
+	text-overflow: ellipsis; 
+	list-style-type: none;
+}
+
+/*  *****  End: Forum Updates List                    ***** */
+
+/* *************************************************** */    
+/*  *****  Topics Tree View                      ***** */
+/* *************************************************** */    
+
+@media only screen and (max-width: 767px) {
+	#topicsTreeView {
+		padding-left: 0.3em;
+		padding-bottom: 10px;
+	}
+	#topicsTreeView ul {
+		padding-left: 1em;
+	}
+	#topicsTreeView ul.dialog {
+		padding-left: 0;
+	}
+}
+@media only screen and (min-width: 768px) {
+	#topicsTreeView {
+		margin-left: -1em;
+	}
+	#topicsTreeView ul {
+		padding-left: 3em;
+	}
+	#topicsTreeView ul.dialog {
+		padding-left: 0;
+	}
+}
+
+#topicsTreeView li {
+	list-style:none;
+	background-image:none;
+	background-repeat:none;
+	background-position:0; 
+	text-indent: -1.4em;
+}
+
+#forumAdmTitle  {
+	width: 25em;
+	white-space: nowrap;
+	overflow: hidden; 
+	text-overflow : ellipsis;
+}
+.topic-adm>div.dropdown-menu {
+	min-width:25em;
+	padding-left:0.5em;
+	line-height: 2;
+}
+.post-adm {
+	line-height: 2;
+}
+.post-adm>div.dropdown-menu li {
+	text-indent: 0.5em !important;
+}
+ul.dropdown-menu {
+	padding-left:0px !important;
+}
+
+.ellipsis {
+	color: #1A1DAC;
+	cursor:pointer;
+	padding-left: 8px;
+}
+.ellipsis:hover {
+   color: #F07D02;
+}
+
+/* ****** End of Topics Tree View ****** */
+
+.c2 {
+	margin-left: 0.2em;
+   color: #1A1DAC ;
+
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	/* word-break: break-all; */
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+	
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+
+}
+
+.post-reply>.dropdown-menu {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+/* ---------------------------------------- */
+/* -  Topic List Panel View               - */
+/* ---------------------------------------- */
+
+#topicsPanelView {
+	border-top: 1px solid #edd;
+	padding-top: 0.5em;
+} 
+
+/* 
+	New panel-view class 2021-12-16 
+*/
+ul.panel-view {
+	padding-left: 1em;
+	padding-right: 0.4em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #aaa;
+}
+@media only screen and (max-width: 479px) {
+	ul.panel-view {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+}
+
+ul.panel-view img {
+	max-width: 100% !important;
+	display: block;
+	height: auto !important;
+}
+
+ul.panel-view li.post {
+	list-style-type: none !important;
+	border-top: 1px solid #ccc;	
+	border-left: 1px solid #ccc;	
+	border-right: 1px solid #ccc;	
+	border-bottom: 1px solid transparent;
+	padding-top: 0.2em;	
+}
+
+ul.panel-view li.post:last-child {
+	border-bottom: 1px solid #ccc;
+}
+
+
+ul.panel-view li.post-handle {
+	list-style-type: none !important;
+	border: none !important;
+}
+
+ul.panel-view ul.post {
+	padding-left: 0px;
+}
+
+
+ul.panel-view ul.post.subtree {
+	border-left: 4px solid #ccc;
+}
+ul.panel-view ul.post.subtree.dialog {
+	border-left: none;
+}
+
+ul.panel-view .contents {
+	border-top: 1px solid #ddd;
+	margin-top: 0.3em;	
+	padding: 0.5em;
+	overflow-wrap: break-word;
+	background-color: #fff !important;
+}
+
+/* End of New panel-view class 2021-12-16 */
+
+li.post.parent {
+	background-color: #EAECEE;
+}
+li.post.focus {
+	background-color: #ffff99;
+}
+
+ul.post>li.post>u {
+	text-decoration: none;
+	padding-left: 8px;
+}
+
+ul.post>li.post:first-child>u:first-child::before {
+	content: "○";
+}
+
+ul.post>li.post:not(:first-child)>u:first-child::before {
+	content: "●";
+	cursor: pointer;
+}
+
+ul.post>li.post:not(:first-child)>u:hover{
+   color: #F07D02;
+}
+
+ul.post.dialog>li.post:first-child>u:first-child::before {
+	content: ">";
+}
+
+@media only screen and (max-width: 479px) {
+	.div-post-form-buttons {
+		padding-bottom: 6em;
+	}
+}
+
+

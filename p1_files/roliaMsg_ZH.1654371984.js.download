@@ -1,0 +1,76 @@
+roliaMsg = {
+	v: {
+		max_by_size: "最长可以有 {0} 个字符(每个汉字按两个字符计算)。",
+		min_by_size: "最少需要有 {0} 个字符(每个汉字按两个字符计算)。",
+	},
+
+	blog: {
+		not_in_series: "不属任何文章系列",
+		a_new_series: "新系列",
+		article_added: "完成！文章加到你在枫下部落的个人专辑了！",
+		article_modified: "专辑文章修改完成！",
+	},
+
+	mall: {	
+		no_more_free: "您已经有了一个免费广告，不可以添加新的免费广告。付费广告将于近期推出，请留意。",
+		too_long_note: " 最长可以有 {0} 个字符(每个汉字按两个字符计算)。",
+		bad_ref_code: "您输入的不是一个正确的推介码。您可以退回上一步重新输入正确的推介码，或继续下一步。",
+		ref_plan_note: "这是现在提供推介码折扣的计划。如果你需要其他广告期的计划或置顶计划，请点上一步，清空推介码之后再继续。",
+
+	},
+
+	add_to_blog: "收录到个人专辑",
+	anonymous: "匿名",
+	pls_enter_title:  "请输入标题",
+	pls_choose_ctg: "请选择栏目",
+	quick_reply: "快捷回复",
+	reply_w_media: "图文回复",
+	fold_topic: "折叠话题",
+	show_pno: "显示帖号",
+	follow_author: "Follow 作者",
+	unfollow_author: "Unfollow 作者",
+	topic: "话题",
+	edit_post: "修改帖子",
+	report_post: "投诉违规帖子",
+	delete_post: "删除帖子",
+	share_online: "分享到微信",
+	picture_uploading_msg: "<p>正在上传图片...<p>小提示：你的图片和帖子还没有发表。<p> 图片上传成功之后，你可以添加帖子的正文，然后发表帖子。",
+	ignore_author: "忽略作者",
+	unignore_author: "取消忽略作者",
+	bookmark: "收藏该话题",
+	undo_bookmark: "放弃收藏",
+	share_topic_url: "分享话题网址",
+	topic_url_copied: "所选话题的网址已被复制到剪帖板",
+	url_copied: "本页面网址已被复制到剪帖板，请分享到您的社交网络",
+
+	pub_img_manager: {
+		trash_note: "如需删除图片，请将之拖放到废纸筐.",
+		duplicated_img: "有一个图片已经刚才被添加了.",
+		max_img_note: "您一共可以有{0}幅图片。您已经有{1}幅，不可以添加新的了.",
+		img_limit_note: "您一共可以有{0}幅图片。您现在只可以再添加{1}幅.",
+		user_image_note: "图片按次序自动添加到正文。拖动图片可以改变次序。拖到废纸筐删除图片。在正文中你可以添加图片的文字说明。<p>可以上传360度全景图(Panoramic Images).",
+		add_images: "添加图片"
+	},
+
+	step_scr: {
+		uploading: "上传中",
+		submit: "提交",
+		prev: "前一步",
+		next: "下一步",
+		confirm: "确认",
+		return: "返回"
+	},
+
+	audio: {
+		add_audio_to_post: "插入音频",
+		upload_audio_file: "选择音频文件",
+		file_type: "文件类型:",
+		size_limit: "文件长度限制:",
+		unused_uploaded: "您之前上传的这个音频文件还没有被使用:",
+		use_now: "在本帖插入",
+		use_later: "以后再说",
+		delete: "删除"
+	},
+
+	end: "结束"
+};
